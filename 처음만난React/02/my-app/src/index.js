@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Chapter06 from './Chapter06';
 import reportWebVitals from './reportWebVitals';
+import Greeting from './Chapter07/Greeting';
+import LoginControl from './Chapter07/LoginControl';
 
  
  
 ReactDOM.render(
-  <App />,
+  <LoginControl />,
   document.getElementById('root')
 );
  
