@@ -10,10 +10,13 @@ function GuestGreeting(props) {
 
 function Greeting(props) {
     const isLoggedIn = props.isLoggedIn;
+
     if (isLoggedIn) {
         return <UserGreeting />;
     }
-    return <GuestGreeting />;
+    else {
+        return <GuestGreeting />;
+    }
 }
 
 export default Greeting;

@@ -6,11 +6,15 @@ import Chapter06 from './Chapter06';
 import reportWebVitals from './reportWebVitals';
 import Greeting from './Chapter07/Greeting';
 import LoginControl from './Chapter07/LoginControl';
-
+import AttendanceBook from './Chapter08/AttendanceBook';
+import SignUp from './Chapter09/SignUp';
+import Calculator from './Chapter10/Calculator';
+import UserProfile from './Chapter11/UserProfile';
  
  
 ReactDOM.render(
-  <LoginControl />,
+  // <LoginControl />,
+  <UserProfile />,
   document.getElementById('root')
 );
  
